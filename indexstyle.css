@@ -2,17 +2,21 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    bagkground-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #385c05;
 }
 
 .linavbar {
     float: left;
+    padding-right: 30px;
 }
 
 .navbar .linavbar .anav {
     display: block;
     color: white;
+    background-color: #385c05;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,4 +24,31 @@
 
 .navbar .linavbar .anav:hover {
     background-color: #111111
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 0;
+    z-index: 105;
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  z-index:100
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  z-index:100
 }
