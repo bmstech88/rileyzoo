@@ -1,0 +1,23 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    bagkground-color: #000;
+}
+
+.linavbar {
+    float: left;
+}
+
+.navbar .linavbar .anav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar .linavbar .anav:hover {
+    background-color: #111111
+}
